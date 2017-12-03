@@ -1,0 +1,32 @@
+D:\xampp\mysql\bin
+
+my.ini 
+
+set
+
+default-time-zone       = "+06:00"
+
+
+
+
+shell> mysql -h host -u user -p
+Enter password: ********
+
+mysql> SELECT CURRENT_TIMESTAMP;
++---------------------+
+| CURRENT_TIMESTAMP   |
++---------------------+
+| 2008-07-19 03:08:37 |
++---------------------+
+1 row in set (0.00 sec)
+
+mysql> SET TIME_ZONE = '-00:00';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> SELECT CURRENT_TIMESTAMP;
++---------------------+
+| CURRENT_TIMESTAMP   |
++---------------------+
+| 2008-07-19 07:10:13 |
++---------------------+
+1 row in set (0.00 sec)
