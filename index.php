@@ -11,7 +11,5 @@ window.close();
 </script>
 </HEAD>
 <BODY onLoad="mypop('main.php');">
-
-This is another change.
 </BODY>
 </html>
